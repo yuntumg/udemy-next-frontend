@@ -3,7 +3,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/api/:path*',
+        source: '/:path*',
         destination: 'https://api-vr7w.onrender.com/api/:path*',
       },
     ];
